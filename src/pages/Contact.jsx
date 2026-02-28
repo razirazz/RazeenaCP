@@ -10,7 +10,7 @@ export default function Contact() {
       ref={revealRef}
       className="min-h-screen px-6 md:px-16 py-24"
     >
-      <div className="max-w-6xl mx-auto space-y-16">
+      <div className=" mx-auto space-y-16 flex flex-col justify-center items-center md:items-start">
 
         {/* Section Heading */}
         <div className="max-w-3xl space-y-6">
@@ -32,7 +32,7 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="border rounded-3xl p-8 md:p-12 backdrop-blur-xl"
+          className="border rounded-3xl p-8 md:p-12 backdrop-blur-xl w-90 md:w-full"
           style={{
             borderColor: "var(--border-color)",
             background:

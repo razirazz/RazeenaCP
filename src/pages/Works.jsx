@@ -37,8 +37,8 @@ export default function Works() {
         { label: "Brake F1", value: "0.94" },
         { label: "No Brake F1", value: "0.92" },
       ],
-      link: null,
-      linkLabel: "Code Available Upon Request",
+      link: "https://www.sciencedirect.com/science/article/pii/S1877050925013924",
+      linkLabel: "View Paper",
     },
     {
       id: "03",
