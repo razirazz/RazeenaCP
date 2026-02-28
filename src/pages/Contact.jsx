@@ -8,7 +8,7 @@ export default function Contact() {
     <section
       id="contact"
       ref={revealRef}
-      className="min-h-screen px-6 md:px-16 pt-24"
+      className="min-h-screen px-6 md:px-16 py-24"
     >
       <div className="max-w-6xl mx-auto space-y-16">
 
